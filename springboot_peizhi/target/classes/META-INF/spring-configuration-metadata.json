@@ -1,0 +1,77 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "cn.demo.bean.Person",
+      "name": "person",
+      "type": "cn.demo.bean.Person"
+    },
+    {
+      "sourceType": "cn.demo.bean.User",
+      "name": "test.user",
+      "type": "cn.demo.bean.User"
+    },
+    {
+      "sourceType": "cn.demo.bean.UserYml",
+      "name": "testinfo.user",
+      "type": "cn.demo.bean.UserYml"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "cn.demo.bean.Person",
+      "name": "person.address",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.demo.bean.Person",
+      "name": "person.age",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "cn.demo.bean.Person",
+      "name": "person.lists",
+      "type": "java.util.List<java.lang.Object>"
+    },
+    {
+      "sourceType": "cn.demo.bean.Person",
+      "name": "person.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.demo.bean.Person",
+      "name": "person.object",
+      "type": "java.util.Map<java.lang.String,java.lang.String>"
+    },
+    {
+      "sourceType": "cn.demo.bean.User",
+      "name": "test.user.age",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "cn.demo.bean.User",
+      "name": "test.user.email",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.demo.bean.User",
+      "name": "test.user.username",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.demo.bean.UserYml",
+      "name": "testinfo.user.age",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "cn.demo.bean.UserYml",
+      "name": "testinfo.user.email",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.demo.bean.UserYml",
+      "name": "testinfo.user.username",
+      "type": "java.lang.String"
+    }
+  ]
+}

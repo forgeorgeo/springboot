@@ -1,0 +1,12 @@
+person:
+name: 百度
+age: 20
+address: 北京
+list: 
+   -百度经验
+   -百度知道
+   -百度派
+object: 
+  key: -百度经验
+  value: 7   
+     

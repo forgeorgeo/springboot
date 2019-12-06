@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: springboot_redis
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: wang
+Implementation-Vendor-Id: cn.demo
+Build-Jdk: 1.8.0_112
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/springboot_redis
+Created-By: Maven Integration for Eclipse
+

@@ -1,0 +1,32 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.1.20:3306/test?useSSL=false
+    username: root
+    password: root123
+  kafka:
+    bootstrap-servers: 192.168.1.123:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+    consumer:
+      group-id: testConsume
+      enable-auto-commit: true
+      auto-commit-interval: 1000
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      
+  rabbitmq:
+    host: 192.168.1.123
+    port: 5672
+    username: admin
+    password: 1234
+#    virtual-host: /vhost_test
+#    publisher-confirms: true
+    
+mybatis:
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  config-location: classpath:mybatis/mybatis-config.xml
+  
+
+logging.level.com.demo.mapper: debug

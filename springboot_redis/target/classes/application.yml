@@ -1,0 +1,22 @@
+spring:
+    redis:
+      host: 120.79.82.191 
+      port: 6379
+      password: Lysb_TestRedis!2019
+      jedis:
+        pool:
+          max-active: 8
+          max-wait: -1
+          max-idle: 500
+          min-idle: 0
+      lettuce:
+        shutdown-timeout: 0
+
+    datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://192.168.1.20:3306/test?useSSL=false
+      username: root
+      password: root123        
+        
+
+logging.level.com.demo.mapper: debug

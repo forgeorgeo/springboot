@@ -1,0 +1,28 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.1.20:3306/test?useSSL=false
+    username: root
+    password: root123
+      
+#  rabbitmq:
+#    host: 192.168.1.123
+#    port: 5672
+#    username: admin
+#    password: 1234
+#    virtual-host: /vhost_test
+#    publisher-confirms: true
+
+# Memcache 配置 
+# memcache:
+#  servers: 127.0.0.1:11211
+#  failover: true
+#  initConn: 100
+#  minConn: 20
+#  maxConn: 1000
+#  maintSleep: 50
+#  nagel: false
+#  socketTO: 3000
+#  aliveCheck: true
+
+logging.level.com.demo.mapper: debug

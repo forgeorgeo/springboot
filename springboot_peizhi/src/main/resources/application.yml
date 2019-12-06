@@ -1,0 +1,24 @@
+spring:
+  profiles:
+    active: dev
+test:
+  user:
+    username : 王炸
+    age : 20
+    toString: the age of ${test.user.username} is ${test.user.age}
+    
+    
+myprops: #自定义的属性和值  
+  simpleprop: simplePropValue  
+  arrayprops: 1,2,3,4,5  
+  listprop1:  
+    - name: abc  
+      value: abcValue  
+    - name: efg  
+      value: efgValue  
+  listprop2:  
+    - config2Value1  
+    - config2Vavlue2  
+  mapprops:  
+    key1: value1  
+    key2: value2     
